@@ -120,21 +120,20 @@ public class State {
                                                             return true;
                                                         }
                                                             // 8 Nivel
-                                                            if ((oveja == Position.DERECHA)
+                                                            if ((oveja
                                                                     && (repollos == Position.DERECHA)
-                                                                    && (lobo == Position.IZQUIERDA)
+                                                                 == Position.IZQUIERDA)
                                                                     && (granjero == Position.DERECHA)) {
                                                                 return false;
                                                             }
                                                                 if ((oveja == Position.DERECHA)
                                                                         && (repollos == Position.IZQUIERDA)
                                                                         && (lobo == Position.IZQUIERDA)
-                                                                        && (granjero == Position.DERECHA)) {
+                                                                      && (granjero == Position.DERECHA)) {
                                                                     return true;
                                                                 }
-                                                                // 9no Nivel
-                                                                // metodo que valida el estado final
-
+                                                            
+                                                               
                                                                 if ((oveja == Position.IZQUIERDA)
                                                                         && (repollos == Position.IZQUIERDA)
                                                                         && (granjero == Position.IZQUIERDA)) {
@@ -151,6 +150,5 @@ public class State {
         //mover al granjero
         /*   result.add(new Transition());*/
 
-    }
-
+ 
 }
